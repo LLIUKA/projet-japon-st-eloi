@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/galery.css">
+    <title>Galerie - Japan Design</title>
+</head>
+
+<body>
+    <nav class="jp-nav">
+        <div class="logo">日本 <span class="sub-logo">Design</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-btn" data-fr="Accueil" data-en="Home">Accueil</a></li>
+            <li><a href="galery.html" class="nav-btn" data-fr="Galerie" data-en="Gallery">Galerie</a></li>
+            <li><a href="services.html" class="nav-btn" data-fr="Services" data-en="Services">Services</a></li>
+            <li><a href="contact.html" class="nav-btn contact-special" data-fr="Contact" data-en="Contact">Contact</a>
+            </li>
+            <li class="lang-switch">
+                <select id="languageSelector" onchange="changeLanguage()">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+    <div class="ticker-wrap">
+        <div class="ticker">
+            <a href="#info-sakura" class="ticker-item" data-fr="🌸 Cerisiers en fleurs (Sakura)"
+                data-en="🌸 Cherry Blossoms (Sakura)">🌸 Cerisiers en fleurs (Sakura)</a>
+            <a href="#info-shinkansen" class="ticker-item" data-fr="🚄 Le Shinkansen" data-en="🚄 The Shinkansen">🚄 Le
+                Shinkansen</a>
+            <a href="#info-fuji" class="ticker-item" data-fr="🏔️ Mont Fuji" data-en="🏔️ Mount Fuji">🏔️ Mont Fuji</a>
+            <a href="#info-gastronomie" class="ticker-item" data-fr="🍣 Gastronomie Washoku"
+                data-en="🍣 Washoku Gastronomy">🍣 Gastronomie Washoku</a>
+            <a href="#info-sakura" class="ticker-item" data-fr="🌸 Cerisiers en fleurs (Sakura)"
+                data-en="🌸 Cherry Blossoms (Sakura)">🌸 Cerisiers en fleurs (Sakura)</a>
+            <a href="#info-shinkansen" class="ticker-item" data-fr="🚄 Le Shinkansen" data-en="🚄 The Shinkansen">🚄 Le
+                Shinkansen</a>
+        </div>
+    </div>
+
+    <div class="video-frame-container">
+
+        <div class="japanese-frame">
+            <video class="video-hero" controls autoplay muted loop>
+                <source  src="video/Japan Travel Video_ Weathering With You (天気の子).mp4" type="video/mp4">
+                <span data-fr="Votre navigateur ne supporte pas la vidéo."
+                    data-en="Your browser does not support the video."></span>
+            </video>
+            <div class="frame-overlay">
+
+            </div>
+        </div>
+    </div>
+
+    <section class="gallery-container">
+        <div class="gallery-grid">
+            <div class="gallery-row">
+                <div class="flip-card card-1">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><img src="Image/kyoto.jpg" alt="Kyoto"></div>
+                        <div class="flip-card-back">
+                            <h3 data-fr="Kyoto" data-en="Kyoto">Kyoto</h3>
+                            <p data-fr="Tradition éternelle." data-en="Eternal tradition.">Tradition éternelle.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card card-2">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><img src="Image/tokyo.jpg" alt="Tokyo"></div>
+                        <div class="flip-card-back">
+                            <h3 data-fr="Tokyo" data-en="Tokyo">Tokyo</h3>
+                            <p data-fr="Néons et futurisme." data-en="Neon and futurism.">Néons et futurisme.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-row">
+                <div class="flip-card card-3">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><img src="Image/mont-fuji.jpg" alt="Fuji"></div>
+                        <div class="flip-card-back">
+                            <h3 data-fr="Mont Fuji" data-en="Mount Fuji">Mont Fuji</h3>
+                            <p data-fr="Sommet sacré." data-en="Sacred peak.">Sommet sacré.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card card-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><img src="Image/osaka.jpg" alt="Osaka"></div>
+                        <div class="flip-card-back">
+                            <h3 data-fr="Osaka" data-en="Osaka">Osaka</h3>
+                            <p data-fr="Gastronomie locale." data-en="Local gastronomy.">Gastronomie locale.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-row">
+                <div class="flip-card card-5">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><img src="Image/nara.jpg" alt="Nara"></div>
+                        <div class="flip-card-back">
+                            <h3 data-fr="Nara" data-en="Nara">Nara</h3>
+                            <p data-fr="Cerfs en liberté." data-en="Free-roaming deer.">Cerfs en liberté.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-card card-6">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front"><img src="Image/hokkaido.jpg" alt="Hokkaido"></div>
+                        <div class="flip-card-back">
+                            <h3 data-fr="Hokkaido" data-en="Hokkaido">Hokkaido</h3>
+                            <p data-fr="Nature sauvage." data-en="Wild nature.">Nature sauvage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="travel-guide">
+        <h2 data-fr="Guide du Voyageur" data-en="Traveler's Guide">Guide du Voyageur</h2>
+        <div class="guide-grid">
+            <div class="guide-card">
+                <h3 data-fr="Meilleure période" data-en="Best time to visit">Meilleure période</h3>
+                <p data-fr="Le printemps (cerisiers) ou l'automne (feuilles rouges)."
+                    data-en="Spring (cherry blossoms) or Autumn (red leaves).">Le printemps (cerisiers) ou l'automne
+                    (feuilles rouges).</p>
+            </div>
+            <div class="guide-card">
+                <h3 data-fr="Transport" data-en="Transportation">Transport</h3>
+                <p data-fr="Le JR Pass est indispensable pour voyager en Shinkansen."
+                    data-en="The JR Pass is essential for Shinkansen travel.">Le JR Pass est indispensable pour voyager
+                    en Shinkansen.</p>
+            </div>
+            <div class="guide-card">
+                <h3 data-fr="Étiquette" data-en="Etiquette">Étiquette</h3>
+                <p data-fr="Apprenez les bases : inclinaison, respect du silence."
+                    data-en="Learn the basics: bowing, respecting silence.">Apprenez les bases : inclinaison, respect du
+                    silence.</p>
+            </div>
+        </div>
+    </section>
+    <section class="details-container">
+
+        <div id="info-sakura" class="detail-section">
+            <div class="detail-icon">🌸</div>
+            <h3 data-fr="Les Cerisiers en Fleurs (Sakura)" data-en="Cherry Blossoms (Sakura)">Les Cerisiers en Fleurs
+                (Sakura)</h3>
+            <p data-fr="Symbole éphémère de la beauté, la saison des Sakura attire des millions de visiteurs. Le 'Hanami' consiste à pique-niquer sous les arbres en fleurs entre fin mars et début avril."
+                data-en="An ephemeral symbol of beauty, the Sakura season attracts millions of visitors. 'Hanami' involves picnicking under the blooming trees between late March and early April.">
+                Symbole éphémère de la beauté, la saison des Sakura attire des millions de visiteurs. Le "Hanami"
+                consiste à pique-niquer sous les arbres en fleurs entre fin mars et début avril.
+            </p>
+        </div>
+
+        <div id="info-shinkansen" class="detail-section">
+            <div class="detail-icon">🚄</div>
+            <h3 data-fr="Le Réseau Shinkansen" data-en="The Shinkansen Network">Le Réseau Shinkansen</h3>
+            <p data-fr="Le train à grande vitesse japonais est une prouesse technologique. Avec une ponctualité moyenne de moins d'une minute, il relie Tokyo à Kyoto en seulement 2h15 dans un confort absolu."
+                data-en="The Japanese high-speed train is a technological feat. With an average punctuality of less than a minute, it connects Tokyo to Kyoto in just 2h15 in absolute comfort.">
+                Le train à grande vitesse japonais est une prouesse technologique. Avec une ponctualité moyenne de moins
+                d'une minute, il relie Tokyo à Kyoto en seulement 2h15 dans un confort absolu.
+            </p>
+        </div>
+
+        <div id="info-fuji" class="detail-section">
+            <div class="detail-icon">🏔️</div>
+            <h3 data-fr="Le Mont Fuji (Fujisan)" data-en="Mount Fuji (Fujisan)">Le Mont Fuji (Fujisan)</h3>
+            <p data-fr="Point culminant du Japon (3 776m), ce volcan sacré est une icône culturelle. Les meilleures vues se trouvent à Hakone ou depuis les cinq lacs (Fujigoko) lors des journées claires d'hiver."
+                data-en="Japan's highest point (3,776m), this sacred volcano is a cultural icon. The best views are found in Hakone or from the five lakes (Fujigoko) on clear winter days.">
+                Point culminant du Japon (3 776m), ce volcan sacré est une icône culturelle. Les meilleures vues se
+                trouvent à Hakone ou depuis les cinq lacs (Fujigoko) lors des journées claires d'hiver.
+            </p>
+        </div>
+
+        <div id="info-gastronomie" class="detail-section">
+            <div class="detail-icon">🍣</div>
+            <h3 data-fr="Gastronomie Washoku" data-en="Washoku Gastronomy">Gastronomie Washoku</h3>
+            <p data-fr="Inscrite au patrimoine de l'UNESCO, la cuisine japonaise repose sur le respect des saisons et la fraîcheur des produits. Bien plus que les sushis, découvrez le Ramen, le Tonkatsu et l'art du Kaiseki."
+                data-en="Listed as UNESCO heritage, Japanese cuisine is based on respect for the seasons and fresh products. Much more than sushi, discover Ramen, Tonkatsu, and the art of Kaiseki.">
+                Inscrite au patrimoine de l'UNESCO, la cuisine japonaise repose sur le respect des saisons et la
+                fraîcheur des produits. Bien plus que les sushis, découvrez le Ramen, le Tonkatsu et l'art du Kaiseki.
+            </p>
+        </div>
+
+    </section>
+
+    <script src="JavaScript/style.js"></script>
+</body>
+
+</html>

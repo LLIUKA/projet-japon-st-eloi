@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Japan Design</title>
+</head>
+
+<body>
+
+    <nav class="jp-nav">
+        <div class="logo">日本 <span class="sub-logo">Design</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-btn" data-fr="Accueil" data-en="Home">Accueil</a></li>
+            <li><a href="galery.html" class="nav-btn" data-fr="Galerie" data-en="Gallery">Galerie</a></li>
+            <li><a href="services.html" class="nav-btn" data-fr="Services" data-en="Services">Services</a></li>
+            <li><a href="contact.html" class="nav-btn contact-special" data-fr="Contact" data-en="Contact">Contact</a>
+            </li>
+            <li class="lang-switch">
+                <select id="languageSelector" onchange="changeLanguage()">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="carousel-body">
+        <div class="carousel-container">
+            <input type="radio" name="carousel" id="radio1" checked>
+            <input type="radio" name="carousel" id="radio2">
+            <input type="radio" name="carousel" id="radio3">
+
+            <div class="slider">
+                <div class="slide s1"><img src="Image/japon1.jpg" alt="Japon 1"></div>
+                <div class="slide s2"><img src="Image/japon2.jpg" alt="Japon 2"></div>
+                <div class="slide s3"><img src="Image/japon3.jpg" alt="Japon 3"></div>
+            </div>
+
+            <div class="slider-navigation">
+                <label for="radio1" class="slider-btn"></label>
+                <label for="radio2" class="slider-btn"></label>
+                <label for="radio3" class="slider-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <section class="culture-section">
+        <h2 class="culture-title" data-fr="Immersion Culturelle" data-en="Cultural Immersion">Immersion Culturelle</h2>
+
+        <div class="card-container">
+            <div class="culture-card">
+                <div class="card-content">
+                    <span class="card-tag" data-fr="Art de vivre" data-en="Art of living">Art de vivre</span>
+                    <h3 data-fr="L'Esprit Zen" data-en="The Zen Spirit">L'Esprit Zen</h3>
+                    <p data-fr="Le Japon cultive l'art de la sérénité à travers ses jardins de pierre et la méditation."
+                        data-en="Japan cultivates the art of serenity through its stone gardens and meditation.">Le
+                        Japon cultive l'art de la sérénité à travers ses jardins de pierre et la méditation.</p>
+                </div>
+            </div>
+
+            <div class="culture-card featured">
+                <div class="card-content">
+                    <span class="card-tag" data-fr="Héritage" data-en="Heritage">Héritage</span>
+                    <h3 data-fr="Tradition Bushido" data-en="Bushido Tradition">Tradition Bushido</h3>
+                    <p data-fr="Le code d'honneur des Samouraïs imprègne encore la société moderne."
+                        data-en="The samurai code of honor still permeates modern society.">Le code d'honneur des
+                        Samouraïs imprègne encore la société moderne : respect, loyauté et courage.</p>
+                </div>
+            </div>
+
+            <div class="culture-card">
+                <div class="card-content">
+                    <span class="card-tag" data-fr="Gastronomie" data-en="Gastronomy">Gastronomie</span>
+                    <h3 data-fr="L'Art du Washoku" data-en="The Art of Washoku">L'Art du Washoku</h3>
+                    <p data-fr="Classée à l'UNESCO, la cuisine japonaise est un régal pour les yeux."
+                        data-en="Classified by UNESCO, Japanese cuisine is a treat for the eyes.">Classée à l'UNESCO, la
+                        cuisine japonaise est un régal pour les yeux autant que pour les papilles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sushi-theater">
+        <div class="chef-workspace">
+            <div id="chef-bubble" class="bubble" data-fr="Cliquez sur un plat pour découvrir son secret !"
+                data-en="Click on a dish to discover its secret!">
+                Cliquez sur un plat pour découvrir son secret !
+            </div>
+            <div class="chef-static">👨‍🍳</div>
+
+            <div class="conveyor-belt">
+                <div class="belt-wrapper" id="belt-wrapper">
+                    <div class="items-group" id="items-group">
+                        <div class="sushi-item" onclick="showInfo('sushi')">🍣</div>
+                        <div class="sushi-item" onclick="showInfo('ramen')">🍜</div>
+                        <div class="sushi-item" onclick="showInfo('bento')">🍱</div>
+                        <div class="sushi-item" onclick="showInfo('matcha')">🍵</div>
+                        <div class="sushi-item" onclick="showInfo('onigiri')">🍙</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="etiquette-section">
+        <h2 class="culture-title" data-fr="Savoir-vivre au Japon" data-en="Japanese Etiquette">Savoir-vivre au Japon
+        </h2>
+        <div class="card-container">
+            <div class="culture-card">
+                <div class="card-icon">🙇‍♂️</div>
+                <h3 data-fr="La Révérence" data-en="Bowing">La Révérence</h3>
+                <p data-fr="Le 'Ojigi' est crucial. On s'incline pour saluer, remercier ou s'excuser."
+                    data-en="'Ojigi' is crucial. We bow to greet, thank, or apologize.">Le 'Ojigi' est crucial. On
+                    s'incline pour saluer, remercier ou s'excuser.</p>
+            </div>
+            <div class="culture-card">
+                <div class="card-icon">🤐</div>
+                <h3 data-fr="Le Silence" data-en="Silence">Le Silence</h3>
+                <p data-fr="Dans les transports, le silence est d'or. On évite de parler fort ou de téléphoner."
+                    data-en="In transport, silence is golden. Avoid loud talking or phone calls.">Dans les transports,
+                    le silence est d'or. On évite de parler fort ou de téléphoner.</p>
+            </div>
+            <div class="culture-card">
+                <div class="card-icon">🥢</div>
+                <h3 data-fr="Les Baguettes" data-en="Chopsticks">Les Baguettes</h3>
+                <p data-fr="Ne plantez jamais vos baguettes verticalement dans le riz (rite funéraire)."
+                    data-en="Never stick your chopsticks vertically into your rice (funeral rite).">Ne plantez jamais
+                    vos baguettes verticalement dans le riz.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="JavaScript/style.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact - Japan Design</title>
+</head>
+
+<body>
+    <nav class="jp-nav">
+        <div class="logo">日本 <span class="sub-logo">Design</span></div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="nav-btn" data-fr="Accueil" data-en="Home">Accueil</a></li>
+            <li><a href="galery.html" class="nav-btn" data-fr="Galerie" data-en="Gallery">Galerie</a></li>
+            <li><a href="services.html" class="nav-btn" data-fr="Services" data-en="Services">Services</a></li>
+            <li><a href="contact.html" class="nav-btn contact-special" data-fr="Contact" data-en="Contact">Contact</a>
+            </li>
+            <li class="lang-switch">
+                <select id="languageSelector" onchange="changeLanguage()">
+                    <option value="fr">FR</option>
+                    <option value="en">EN</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="form-control">
+        <div class="contact-container">
+            <form class="contact-form">
+                <h2 data-fr="Contactez-nous" data-en="Contact Us">Contactez-nous</h2>
+                <p data-fr="Une question ? Envoyez-nous un message." data-en="Any questions? Send us a message.">Une
+                    question ? Envoyez-nous un message.</p>
+
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name" data-fr="Nom complet" data-en="Full name">Nom complet</label>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email" data-fr="Email" data-en="Email">Email</label>
+                </div>
+
+                <div class="input-group">
+                    <textarea id="message" rows="4" required placeholder=" "></textarea>
+                    <label for="message" data-fr="Votre message" data-en="Your message">Votre message</label>
+                </div>
+
+                <button class="nav-btn" type="submit" data-fr="Envoyer" data-en="Send">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="JavaScript/style.js"></script>
+</body>
+
+</html>
