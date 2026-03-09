@@ -1,19 +1,19 @@
-# 🇯🇵 Japan Design - Site d'Immersion Culturelle
+# 🇯🇵 Japan Tourisme - Site d'Immersion Culturelle
 
-Bienvenue sur le projet **Japan Design**, une plateforme web immersive dédiée à la découverte de la culture, de la gastronomie et des paysages du Japon.
+Bienvenue sur le projet **Japan tourisme**, une plateforme web immersive dédiée à la découverte de la culture, de la gastronomie et des paysages du Japon.
 
-L'objectif de ce projet est de proposer une **expérience visuelle et culturelle immersive**, permettant aux utilisateurs d'explorer différents aspects du Japon à travers un design moderne, une navigation fluide et un contenu riche.
+L'objectif de ce projet est de proposer une **expérience visuelle et culturelle immersive**, permettant aux utilisateurs d'explorer différents aspects du Japon à travers un Tourisme moderne, une navigation fluide et un contenu riche.
 
 ---
 
 # 🚀 À propos du projet
 
-**Japan Design** est un site web statique conçu pour mettre en valeur le patrimoine japonais et faciliter la découverte du pays.
+**Japan Tourisme** est un site web statique conçu pour mettre en valeur le patrimoine japonais et faciliter la découverte du pays.
 
 Le projet met l'accent sur :
 
 - une **expérience utilisateur intuitive**
-- une **esthétique inspirée du design japonais**
+- une **esthétique inspirée du Tourisme japonais**
 - une **navigation simple et accessible**
 - une **adaptation complète aux différents écrans**
 
@@ -38,7 +38,7 @@ Une galerie permettant de découvrir :
 - des éléments culturels
 - des vidéos immersives
 
-### 📱 Design responsive
+### 📱 Tourisme responsive
 Le site est entièrement optimisé pour :
 
 - ordinateurs (desktop)
@@ -76,7 +76,7 @@ Le projet utilise des **technologies web standards**, garantissant compatibilit�
 Utilisé pour :
 
 - la mise en page
-- le design responsive
+- le Tourisme responsive
 - les animations
 
 Techniques utilisées :
